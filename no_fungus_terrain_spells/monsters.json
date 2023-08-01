@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mon_spore",
+    "copy-from": "mon_spore",
+    "type": "MONSTER",
+    "name": { "str": "spore cloud" },
+    "upgrades": false,
+    "special_attacks": [ [ "DISAPPEAR", 10 ] ],
+    "delete": { "special_attacks": [ "PLANT" ] }
+  },
+  {
+    "id": "mon_spider_fungus",
+    "copy-from": "mon_spider_fungus",
+    "type": "MONSTER",
+    "name": { "str": "fungal spider" },
+    "delete": { "special_attacks": [ "FUNGAL_TRAIL" ] }
+  },
+  {
+    "id": "mon_fungal_wall",
+    "copy-from": "mon_fungal_wall",
+    "type": "MONSTER",
+    "name": { "str": "fungal wall" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_fungaloid",
+    "copy-from": "mon_fungaloid",
+	"alias": "mon_fungaloid_dormant",
+    "type": "MONSTER",
+    "name": { "str": "fungaloid" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_fungaloid_shambler",
+    "copy-from": "mon_fungaloid_shambler",
+    "type": "MONSTER",
+    "name": { "str": "fungaloid shambler" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_ant_fungus",
+    "copy-from": "mon_ant_fungus",
+    "type": "MONSTER",
+    "name": { "str": "fungal ant" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_boomer_fungus",
+    "copy-from": "mon_boomer_fungus",
+    "type": "MONSTER",
+    "name": { "str": "fungal boomer" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_zombie_child_fungus",
+    "copy-from": "mon_zombie_child_fungus",
+    "type": "MONSTER",
+    "name": { "str": "fungal child", "str_pl": "fungal children" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_skeleton_brute_fungus",
+    "copy-from": "mon_skeleton_brute_fungus",
+    "type": "MONSTER",
+    "name": { "str": "fungal skeletal brute" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_skeleton_fungus",
+    "copy-from": "mon_skeleton_fungus",
+    "type": "MONSTER",
+    "name": { "str": "fungal skeletal zombie" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_zombie_fungus",
+    "copy-from": "mon_zombie_fungus",
+    "type": "MONSTER",
+    "name": { "str": "fungal zombie" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  }
+]

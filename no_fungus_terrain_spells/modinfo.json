@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "no_fungal_terrain_spells",
+    "name": "Remove Fungal Terraforming Spells",
+    "authors": [ "dan-netizen" ],
+    "description": "Removes the terraforming and transformative spells of fungal monsters. Extends 'no_fungal_growth' by 'eltank'.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]
